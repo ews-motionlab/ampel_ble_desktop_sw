@@ -17,7 +17,8 @@ terminator = ';'
 # parameters used for getDescription and getValueText
 COMPLETE_LOCAL_NAME = 9		# position 8 contains the name of the device
 
-
+LED_CHAR_HANDLE = 0X2a
+TEST_CHAR_HANDLE = 0X30
 
 
 class ampel_ble(btle.Peripheral):			# inherits from the class defining a generic BLE Peripheral
